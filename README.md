@@ -10,5 +10,5 @@ Create a PHP-based graduate school application consisting of the following pages
 
 You must use sessions. HTTP is a stateless protocol, so the data cannot be collected, displayed, or analyzed otherwise.
 
-You must use a custom function that returns a boolean given the accomplishments and two integers (num courses desired, num courses taken). This function will search within the accomplishments for "PHP" and the determine if the course percentage meets the current threshold (>= 50%). This function will encapsulate the hard-coded search string and 50% (which would make it easy to swap 50% for a different figure in the future).
+You must use a custom function that returns a boolean given the accomplishments and two integers (num courses listed, num courses taken). This function will search within the accomplishments for "PHP" and the determine if the course percentage meets the current threshold (>= 50%). This function will encapsulate the hard-coded search string and 50% (which would make it easy to swap 50% for a different figure in the future).
 
